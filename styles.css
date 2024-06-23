@@ -1,0 +1,67 @@
+body {
+  background-color: #fafafa;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.bg-pastel {
+  background-color: #ffcccb; 
+}
+
+.auth-form, .post-form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #ffb6c1; 
+  border-color: #ffb6c1;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ff91a4; 
+  border-color: #ff91a4;
+}
+
+.auth-form h2, .post-form h2, #posts-container h2 {
+  color: #555;
+}
+
+.jumbotron {
+  background-color: #ffe4e1; 
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1, .jumbotron p {
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}
